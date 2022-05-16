@@ -25,3 +25,7 @@ func main() {
 	fmt.Println(isMarried)
 	fmt.Println(firstName , lastName)
 }
+
+//Biz func içinde değilsek mutlaka bir keyword kullanmak zorundayız. := ile kull-
+//andığımız değer atama yöntemi sadece func içinde gerçekleşebiliyor.
+//!!! func dışındaysak mutlaka keyword kullanmamız gerekli !!!
