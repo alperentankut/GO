@@ -19,4 +19,4 @@ func main(){
 
 //go da bir program main paketinin içindeki main fonksiyonundan başlar
 //bundan dolayı fonksiyonu main ile yazdık.
-//build komutunu yazdığımızda ise bize .exe uzantılı bir dosya veriyor.
+//build komutunu yazdığımızda ise bize .exe uzantılı bir dosya veriyor..
