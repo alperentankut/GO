@@ -13,6 +13,18 @@ func main(){
 	fmt.Println(packVar)
 }
 
+// var name = "arin"
+// name := "elis"
+//fmt.Prinln(name);
+
+//---Yukarda hatayla karşılacağız. Bunun sebebi ise ilk başta name değişkenine
+//hem declaration hem assignment yapıyoruz. Onun altında ise name değişkenine
+//shorthand declaration yöntemiyle tekrar declaration ve assignment yapmaya çalıştığımız için hata alıyoruz.
+//biz shortand declaration yerine name = "elis" şeklinde yazarsak hata almayız
+//çünkü bu yazımda sadece assign etmiş oluyoruz. Fakat shorthand declaration yöntemiyle
+// örneğin name , surname := "elis" ,  "software" şeklinde bir atama yaparsak
+//yazdırırken hata almayız. Biz bir değişkeni iki kere declare edemeyiz.
+
 //Biz fonksiyon scope u içinde oluşturduğumuz değişkenlere sadece fonksiyon içinde ulaşabiliriz. Fonksiyon dışında ulaşamayız.
 //Fakat global scope da oluşturduğumuz değişkenlere fonksiyon içinde de dışında da ulaşabiliriz.
 //Biz fonksiyon dışında hep anahtar kelimeleri kullanırız (import , var , func) bunları kullanmadan short declaration yaparsak (:=) hata alırız.
